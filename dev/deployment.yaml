@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: web-container
-          image: k4she/web
+          image: k4she/web:1.0
           ports:
             - containerPort: 80
