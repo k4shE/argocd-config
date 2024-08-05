@@ -10,8 +10,9 @@ spec:
     - repoURL: https://github.com/k4shE/argocd-config.git
       targetRevision: HEAD
       path: dev
-    - repoURL: https://github.com/k4shE/vault-app.git
+    - repoURL: https://github.com/k4shE/argocd-config.git
       targetRevision: HEAD
+      path: dev
   destination:
     server: https://kubernetes.default.svc
     namespace: my-app
