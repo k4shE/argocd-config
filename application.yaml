@@ -6,10 +6,12 @@ metadata:
 spec:
   project: default
 
-  source:
-    repoURL: https://github.com/k4shE/argocd-config.git
-    targetRevision: HEAD
-    path: dev
+  sources:
+    - repoURL: https://github.com/k4shE/argocd-config.git
+      targetRevision: HEAD
+      path: dev
+    - repoURL: https://github.com/k4shE/vault-app.git
+      targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
     namespace: my-app
