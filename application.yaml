@@ -12,6 +12,7 @@ spec:
       path: dev
     - repoURL: https://github.com/k4shE/vault-app.git
       targetRevision: HEAD
+      path: vault
   destination:
     server: https://kubernetes.default.svc
     namespace: my-app
